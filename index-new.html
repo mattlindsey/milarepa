@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <meta name="keywords"
+          content="buddha, buddhism, tibet, tibetan buddhism, dharma, milarepa, milarepa center, vermont, barnet, retreat, meditation, Lama Zopa Rinpoche, Lama Yeshe, Venerable Amy"/>
+    <meta name="description" content="Milarepa Center is a Tibetan Buddhist retreat center in Barnet, Vermont."/>
+    <meta name="copyright" content="Milarepa Center Copyright (c) 2012"/>
+    <meta name="google-site-verification" content="quogN5jSmYn2jQ4XNDFNBSkSe1Ba96AURJA3R5P6pkY"/>
+    <title>Milarepa Center - a Tibetan Buddhist retreat center</title>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans|Pontano+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="stylesheets/foundation.min.css">
+    <link rel="stylesheet" href="stylesheets/app.css">
+    <script src="javascripts/modernizr.foundation.js">
+    </script>
+    <script type="text/javascript" src="javascripts/jquery-1.2.6.min.js">
+    </script>
+    <script type="text/javascript">
+        function slideSwitch() {
+            var $active = $('#slideshow IMG.active');
+            if ($active.length == 0) $active = $('#slideshow IMG:last');
+            var $next = $active.next().length ? $active.next()
+                    : $('#slideshow IMG:first');
+            $active.addClass('last-active');
+            $next.css({opacity: 0.0})
+                    .addClass('active')
+                    .animate({opacity: 1.0}, 1000, function () {
+                        $active.removeClass('active last-active');
+                    });
+        }
+        ;
+        $(function () {
+            setInterval("slideSwitch()", 10000);
+        });
+    </script>
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-42938584-1']);
+        _gaq.push(['_trackPageview']);
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <script language="javascript" type="text/javascript">
+        today = new Date();
+        todayEpoch = today.getTime();
+        target = new Date("17 March, 2015");
+        targetEpoch = target.getTime();
+        daysLeft = Math.floor(((targetEpoch - todayEpoch) / (60 * 60 * 24)) / 1000);
+    </script>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <style type="text/css">
+        body {
+            background-repeat: no-repeat;
+            background-image: url();
+            background-color: #FFF;
+        }
+
+        #slideshow {
+            position: relative;
+            height: 252px;
+            width: 910px;
+        }
+
+        #slideshow IMG {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 8;
+            opacity: 0.0;
+        }
+
+        #slideshow IMG.active {
+            z-index: 10;
+            opacity: 1.0;
+        }
+
+        #slideshow IMG.last-active {
+            z-index: 9;
+        }
+    </style>
+    <meta name="google-site-verification" content="qJejarKhpNjGKdRnFPhlDoL5eewv-n4x2Y-MGYQoYJs"/>
+</head>
+<body>
+<div id="box">
+    <div class="row">
+        <div class="six columns"><a href="http://www.milarepacenter.org/index.html"><img src="images/logo3.png"
+                                                                                         border="0" height="120"
+                                                                                         width="437"/></a>
+        </div>
+    </div>
+</div>
+<div class="show-for-touch">
+                        <div class="row">
+        <div class="twelve columns">
+            <dl class="nice vertical tabs">
+                <dd class="topic active"><a href="#simple1">About Us</a></dd>
+                <dd class="subtopic"><a href="http://www.milarepacenter.org/teachers.html">Teachers</a></dd>
+                <dd class="subtopic"><a href="http://www.milarepacenter.org/team.html">Team</a></dd>
+                <dd class="subtopic"><a href="http://www.milarepacenter.org/boardmembers.html">Board Members</a></dd>
+                <dd class="subtopic"><a href="http://www.milarepacenter.org/vision.html">Vision and Mission</a></dd>
+                <dd class="subtopic"><a href="http://www.milarepacenter.org/masterplan.html">Master Plan</a></dd>
+                <dd class="subtopic"><a href="http://www.milarepacenter.org/history.html">History</a></dd>
+                <dd class="subtopic"><a href="http://www.milarepacenter.org/milarepabio.html">Jetsun Milarepa Biography</a></dd>
+                <dd class="subtopic"><a href="http://www.milarepacenter.org/photo.html">Photo Gallery</a></dd>
+                <dd class="subtopic"><a href="http://www.milarepacenter.org/jointheteam.html">Join The Team</a></dd>
+                <dd class="topic active"><a href="#simple9">Programs</a></dd>
+                <dd class="subtopic"><a href="http://www.milarepacenter.org/programs.html">Programs</a></dd>
+                <dd class="subtopic"><a href="http://www.milarepacenter.org/regnretinfo.html">Registration &amp; Retreat
+                    Info</a></dd>
+                <dd class="subtopic"><a href="http://www.milarepacenter.org/workstudy.html">Work Study</a></dd>
+                <dd class="topic active"><a href="#simple10">Calendar</a></dd>
+                <dd class="subtopic"><a href="http://www.milarepacenter.org/calendar.html">Calendar</a></dd>
+                <dd class="topic active"><a href="#simple19">Become a Friend</a></dd>
+                <dd class="subtopic"><a href="http://www.milarepacenter.org/friends.html">Become a Friend</a></dd>
+                <dd class="topic active"><a href="#simple77">Personal Retreats</a></dd>
+                <dd class="subtopic"><a href="http://www.milarepacenter.org/personalret.html">Personal Retreats</a></dd>
+                <dd class="topic active"><a href="#simple17">Support Us</a></dd>
+                <dd class="subtopic"><a href="http://www.milarepacenter.org/donate.html">Donate Now</a></dd>
+                <dd class="subtopic"><a href="http://www.milarepacenter.org/friends.html">Become a Friend</a></dd>
+                <dd class="subtopic"><a href="http://www.milarepacenter.org/pegiving.html">Planned &amp; Estate
+                    Giving</a></dd>
+                <dd class="subtopic"><a href="http://www.milarepacenter.org/gos.html">Gifts of Stock/Corporate Matching
+                    Grants/Workplace Sponsorship</a></dd>
+                <dd class="subtopic"><a href="http://www.milarepacenter.org/volunteering.html">Volunteering</a></dd>
+                <dd class="subtopic"><a href="http://www.milarepacenter.org/wishlist.html">Wish List</a></dd>
+                <dd class="subtopic"><a href="http://www.milarepacenter.org/faq.html">FAQ</a></dd>
+
+                <dd class="topic active"><a href="#simple303">News</a></dd>
+                <dd class="subtopic"><a href="http://www.milarepacenter.org/newsarchives.html">News</a></dd>
+                <dd class="topic active"><a href="#simple31">Contact Us</a></dd>
+                <dd class="subtopic"><a href="http://www.milarepacenter.org/visit.html">Visit us</a></dd>
+                <dd class="subtopic"><a href="http://www.milarepacenter.org/contactinfo.html">Contact Information</a>
+                </dd>
+                <dd class="subtopic"><a href="http://www.milarepacenter.org/mailinglist.html">E-mailing List</a></dd>
+                <dd class="subtopic"><a href="http://www.milarepacenter.org/directions.html">Directions</a></dd>
+            </dl>
+        </div>
+    </div>
+</div>
+<div class="hide-for-touch">
+    <div class="row">
+        <div class="twelve columns">
+            <div id='cssmenu' align="center">
+                <ul>
+                    <li class='active '><a href='index.html'><span>Home</span></a></li>
+                    <li class='has-sub '><a href='#'><span>About Us</span></a></li>
+                </ul>
+                <ul>
+                    <li><a href='http://www.milarepacenter.org/teachers.html'><span>Teachers</span></a></li>
+                    <li><a href='http://www.milarepacenter.org/team.html'><span>Team</span></a></li>
+                    <li><a href='http://www.milarepacenter.org/boardmembers.html'><span>Board Members</span></a></li>
+                    <li><a href='http://www.milarepacenter.org/vision.html'><span>Vision and Mission</span></a></li>
+                    <li><a href='http://www.milarepacenter.org/masterplan.html'><span>Master Plan</span></a></li>
+                    <li><a href='http://www.milarepacenter.org/history.html'><span>History</span></a></li>
+                    <li><a href='http://www.milarepacenter.org/milarepabio.html'><span>Jetsun Milarepa Biography</span></a>
+                    </li>
+                    <li><a href='http://www.milarepacenter.org/photo.html'><span>Photo Gallery</span></a></li>
+                    <li><a href='http://www.milarepacenter.org/jointheteam.html'><span>Join The Team</span></a></li>
+                </ul>
+                </li>
+                <li class='has-sub '><a href='#'><span>Programs</span></a>
+                    <ul>
+                        <li><a href='http://www.milarepacenter.org/programs.html'><span>Programs</span></a></li>
+                        <li><a href='http://www.milarepacenter.org/regnretinfo.html'><span>Registration &amp; Retreat Info</span></a>
+                        </li>
+                        <li><a href='http://www.milarepacenter.org/workstudy.html'><span>Work Study</span></a></li>
+                    </ul>
+                </li>
+                <li><a href='http://www.milarepacenter.org/calendar.html'><span>Calendar</span></a></li>
+                <li><a href='http://www.milarepacenter.org/friends.html'><span>Become a Friend</span></a>
+                </li>
+                <li><a href='http://www.milarepacenter.org/personalret.html'><span>Personal Retreats</span></a></li>
+                <li class='has-sub '><a href='#'><span>Support Us</span></a>
+                    <ul>
+                        <li><a href='http://www.milarepacenter.org/donate.html'><span>Donate Now</span></a></li>
+                        <li><a href='http://www.milarepacenter.org/friends.html'><span>Become a Friend</span></a></li>
+                        <li>
+                            <a href='http://www.milarepacenter.org/pegiving.html'><span>Planned &amp; Estate Giving</span></a>
+                        </li>
+                        <li><a href='http://www.milarepacenter.org/gos.html'><span>Gifts of Stock/Corporate Matching Grants/Workplace Sponsorship</span></a>
+                        </li>
+                        <li><a href='http://www.milarepacenter.org/volunteering.html'><span>Volunteering</span></a></li>
+                        <li><a href='http://www.milarepacenter.org/wishlist.html'><span>Wish List</span></a></li>
+                    </ul>
+                </li>
+                <li><a href='http://www.milarepacenter.org/newsarchives.html'><span>News</span></a></li>
+                <li class='has-sub '><a href='#'><span>Contact Us</span></a>
+                    <ul>
+                        <li><a href='http://www.milarepacenter.org/visit.html'><span>Visit Us</span></a>
+                        <li>
+                            <a href='http://www.milarepacenter.org/contactinfo.html'><span>Contact Information</span></a>
+                        </li>
+                        <li><a href='http://www.milarepacenter.org/mailinglist.html'><span>E-mailing List</span></a>
+                        </li>
+                        <li><a href='http://www.milarepacenter.org/directions.html'><span>Directions</span></a></li>
+                    </ul>
+                </li>
+            </div>
+        </div>
+    </div>
+</div>
+
+<p>&nbsp;</p>
+
+<div class="show-for-small">
+    <div class="show-for-touch">
+        <div class="row">
+            <div class="twelve columns">
+                <h4>Welcome!</h4>
+                <h5 class="subheader">Milarepa Center is a Tibetan Buddhist retreat center in the Gelugpa tradition. We
+                    host a variety of programs encompassing compassionate and wise practice through study, meditation,
+                    and service.</h5>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="hide-for-small">
+    <div class="hide-for-touch">
+        <div class="row">
+            <div class="twelve columns">
+                <div id="banner-wrapper">
+                    <div id="slideshow"><img src="images/111.png" class="active"/> <img src="images/222.png"/> <img
+                            src="images/333.png"/> <img src="images/555.png"/> <img src="images/444.png"/></div>
+                    <p>&nbsp;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="twelve columns">
+        <div class="fp">
+            <!--- <h3>Highlights</h3> --->
+            <h3>Group Day Retreat: Mantras to Pacify Earthquakes THIS Saturday, January 30</h3>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="twelve columns row">
+        <div class="eight columns">
+            <div class="panel">
+            </div>
+            <h4>10 a.m. - 5 p.m. BYOLunch and come by any time to recite mantras with us</h4>
+            <p>Lama Zopa Rinpoche recently advised students to urgently do certain practices to help mitigate upcoming
+                earthquakes in California, Nepal, and around the world. According to Rinpoche’s observations, these
+                practices should be completed by February 1st, 2016.<br>
+
+            <p>Accomplishing the advised numbers will take the quick mobilization of students internationally,
+                especially to complete the recitations of the long Kshitigarbha mantra. Together we can do this!<br>
+
+            <p>Please join us at Milarepa Center on Saturday, January 30 as we come together to pray, recite, and
+                practice for the benefit of all sentient beings. We will have the mantra on pieces of paper and we can
+                say them together or separately. Bring your own lunch. You can say as many as you would like. This will
+                be an open house for completeing as many Kshitigarbha Mantras as possible. <br>
+                <br><br>
+
+                <br><br>
+        </div>
+    </div>
+    <div class="four columns">
+        <div class="panel">
+            <p><a href="http://www.milarepacenter.org/donate.html" class="large radius success button">Donate
+                now</a></p>
+            <div class="hr2"></div>
+            <div class="panel2">
+                <!--<h4>Join the Team!</h4>
+                <p>Job Opportunities at Milarepa Center <br><br><p>All positions currently filled!</p>
+                 -->
+                <div class="hr2"></div>
+                <h4><strong>Tuesday Morning Yoga</strong></h4>
+                <p>Join us 7:30 a.m. on Tuesdays for Ashtanga yoga with Susan Kapp Monaghan. $15 for an hour and a
+                    half. Bring your mat. No experience neccesary. Perfect for all skill levels. No RSVP needed.</p>
+                <div class="hr2"></div>
+                <h4><strong>Wednesday Evening Meditation</strong></h4>
+                <p>Participate in our Mindful Work Week initiative by meditating with us on Wednesday evenings 7 - 8
+                    p.m. If you've never been to Milarepa Center before or have little to no experience, we ask that
+                    you arrive at 6:45 p.m. for a tour and an introduction. 8:00 - 8:30 p.m. stay after for sweet
+                    treats, tea, and community. This event is free! Donations are welcome.</p>
+                <br/> <a href="http://www.milarepacenter.org/programs.html" class="medium radius nice blue button">Read
+                More</a>
+                <div class="hr2"></div>
+                <div class="padd"><a href="https://www.facebook.com/MilarepaCenter"><img
+                        src="http://www.milarepacenter.org/images/facebook.png" border="0" width="40px"
+                        height="40px"/></a></div>
+                <div class="padd"><a href="http://websta.me/n/milarepacenter"><img
+                        src="http://www.milarepacenter.org/images/instagram.png" border="0" width="40px"
+                        height="40px"/></a></div>
+                <div class="padd"><a href="https://twitter.com/milarepacenter"><img
+                        src="http://www.milarepacenter.org/images/twitter.png" border="0" width="40px"
+                        height="40px"/></a></div>
+                <div class="padd"><a href="https://www.youtube.com/user/MilarepaCenter"><img
+                        src="http://www.milarepacenter.org/images/youtube.png" border="0" width="40px"
+                        height="40px"/></a></div>
+                <div class="hr2"></div>
+                <a href="http://www.fpmt.org" target="_blank"><img src="images/fpmt.png" border="0" height="64"
+                                                                   width="221"/></a></div>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
+                <div class="panel">
+                    <h3>What Is Meditation?</h3>
+                    <p>Milarepa Center fosters a safe and peaceful environment encouraging rich contemplative
+                        practice. We offer instruction in both concentration and guided meditations that help
+                        participants cultivate mindfulness and thus a happier life.</p>
+                    <ul type="circle">
+                        <li><a href="http://www.milarepacenter.org/ben.html">The benefits of meditation</a></li>
+                        <li><a href="http://www.milarepacenter.org/guidedmed.html">Guided meditations</a></li>
+                    </ul>
+                    <p>&nbsp;</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="six columns">
+                <div class="panel"><img src="images/env.png" height="80" width="80"/>
+                    <h4>E-letter</h4>
+                    <p>Enter your email address below to receive our monthly E-Letter filled with upcoming event
+                        information and spirtual insights to enhance your practice.</p>
+                    <div align="left">
+                        <div style="width: 160px; background-color: #f7f7f7;">
+                            <form name="ccoptin" action="http://visitor.constantcontact.com/d.jsp" target="_blank"
+                                  method="post" style="margin-bottom: 3;"><input name="ea" size="20" value=""
+                                                                                 helvetica="" neue="" arial=""
+                                                                                 sans-serif="" font-size:="" 10px=""
+                                                                                 border:="" 1px="" solid=""
+                                                                                 999999=""
+                                                                                 placeholder="Enter your e-mail"
+                                                                                 type="text"/> <input name="go"
+                                                                                                      value="Go &rarr;"
+                                                                                                      class="small radius nice blue button"
+                                                                                                      helvetica=""
+                                                                                                      neue=""
+                                                                                                      arial=""
+                                                                                                      sans-serif=""
+                                                                                                      font-size:=""
+                                                                                                      10px=""
+                                                                                                      type="submit"/>
+                                <input name="m" value="1102961785577" type="hidden"/> <input name="p" value="oi"
+                                                                                             type="hidden"/>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="six columns">
+                <div class="panel"><img src="images/dorje.png" height="80" width="200"/>
+                    <h4>Practice Schedule</h4>
+                    <p>Each month there are days set aside in the Tibetan calendar which are auspicious for specific
+                        practices. It's very helpful for Milarepa Center and its community to do these practices
+                        whenever possible. We invite you to join us for the various rituals or pujas we have
+                        scheduled.</p>
+                    <a href="http://www.milarepacenter.org/practiceday.html" class="small radius nice blue button">Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+    <div id="altar" class="reveal-modal [expand, xlarge, large, medium, small]"><img src="images/before.png"
+                                                                                     height="375" width="500"/>
+        <h3>Before</h3>
+        <img src="images/after.png" height="375" width="500"/>
+        <h3>After</h3>
+        <a class="close-reveal-modal">&#215;</a></div>
+
+    <div class="hide-for-touch">
+        <div class="row">
+            <div class="twelve columns">
+                <div class="footer">
+                    <p><strong>Milarepa Center</strong> &middot; 1344 U.S. Highway 5 South, Barnet, Vermont
+                        05821 &middot; (802) 633-4136 &middot; <a href="mailto:milarepa@milarepacenter.org">milarepa@milarepacenter.org</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="show-for-touch">
+        <div class="row">
+            <div class="twelve columns">
+                <div class="footertouch">
+                    <p><strong>Milarepa Center</strong><br>1344 U.S. Highway 5 South<br>Barnet, Vermont 05821<br>(802)
+                        633-4136<br><a href="mailto:milarepa@milarepacenter.org">milarepa@milarepacenter.org</a></p>
+                </div>
+            </div>
+        </div>
+
+        <script src="javascripts/foundation.min.js" type="text/javascript"></script>
+        <script src="javascripts/app.js" type="text/javascript"></script>
+        <script src="javascripts/jquery.foundation.tabs.js" type="text/javascript">// <![CDATA[
+        $(document).foundationTabs();
+        $(document).ready(function ($) {
+            $('.tabs .subtopic').hide();
+            $('.tabs .subtopic:lt(2)').show();
+            $('.tabs .topic a').click(function () {
+                if ($(this).hasClass('selected')) {
+                    $(this).removeClass('selected');
+                    $(this).parent().nextUntil('.tabs .topic').slideUp();
+                } else {
+                    $('.tabs .topic a').removeClass('selected');
+                    $(this).addClass('selected');
+                    $('.tabs .subtopic').slideUp();
+                    $(this).parent().nextUntil('.tabs .topic').slideDown();
+                }
+                return false;
+            });
+        });
+        </script>
+    </div>
+</div>
+</div>
+</body>
+</html>
